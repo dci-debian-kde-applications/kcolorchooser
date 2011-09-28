@@ -1,18 +1,23 @@
 Source: kcolorchooser
 Section: graphics
 Priority: extra
-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Eshat Cakar <info@eshat.de>
 Build-Depends: kde-sc-dev-latest (>= 4:4.7.1),
- cmake, debhelper (>= 7.0.50~), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.7)
-Standards-Version: 3.9.1
+	       kdelibs5-dev (>= 4:4.7)
+	       pkg-kde-tools,
+	       debhelper (>= 7.0.50~), 
+	       cmake, 
+Standards-Version: 3.9.2
 Homepage: https://projects.kde.org/projects/kde/kdegraphics/kcolorchooser
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kcolorchooser
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kcolorchooser
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kcolorchooser.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kcolorchooser.git
 
 Package: kcolorchooser
 Section: graphics
 Architecture: any
+Replaces: kcoloredit
+Breaks: kcoloredit
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: color chooser and palette editor
  KColorChooser is a color palette tool, used to mix colors and create custom
