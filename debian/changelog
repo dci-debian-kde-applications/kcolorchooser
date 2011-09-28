@@ -1,26 +1,5 @@
-kcolorchooser (4:4.7.1-0ubuntu2) oneiric; urgency=low
+kcolorchooser (4:4.7.1-0r0) UNRELEASED; urgency=low
 
-  * No-change rebuild so translations aren't stripped from .desktop
-    files anymore.
+  * Initial release. Start from the Kubuntu packaging, thanks!
 
- -- Felix Geyer <debfx-pkg@fobos.de>  Thu, 15 Sep 2011 23:13:52 +0200
-
-kcolorchooser (4:4.7.1-0ubuntu1) oneiric; urgency=low
-
-  * New upstream release
-    - Bump kde-sc-dev-latest build dependency to 4:4.7.1
-
- -- Jonathan Kolberg <bulldog98@kubuntu-de.org>  Fri, 09 Sep 2011 10:15:13 -0400
-
-kcolorchooser (4:4.7.0-0ubuntu1) oneiric; urgency=low
-
-  * New upstream release
-  * Use wildcard in install file so we do not need to worry about not-installed
-
- -- Harald Sitter <apachelogger@ubuntu.com>  Sat, 23 Jul 2011 14:26:27 +0200
-
-kcolorchooser (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
-
-  * Initial release
-
- -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 08 Jul 2011 12:33:31 +0200
+ -- Eshat Cakar <info@eshat.de>  Wed, 28 Sep 2011 17:27:22 +0200
