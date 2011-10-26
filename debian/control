@@ -26,13 +26,3 @@ Description: color chooser and palette editor
  and the Oxygen color scheme.
  .
  This package is part of the KDE graphics module.
-
-Package: kcolorchooser-dbg
-Section: debug
-Architecture: any
-Breaks: kdegraphics-dbg (<< 4:4.6.90)
-Replaces: kdegraphics-dbg (<< 4:4.6.90)
-Depends: ${misc:Depends}, kcolorchooser (= ${binary:Version})
-Description: debugging symbols for kcolorchooser
- This package contains debugging files used to investigate problems with
- binaries included in the kcolorchooser module.
