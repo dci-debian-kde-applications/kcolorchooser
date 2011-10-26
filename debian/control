@@ -1,13 +1,11 @@
 Source: kcolorchooser
-Section: graphics
-Priority: extra
+Section: kde
+Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>
 Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
+ cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
  kdelibs5-dev (>= 4:4.7),
- pkg-kde-tools,
- debhelper (>= 7.0.50~),
- cmake,
 Standards-Version: 3.9.2
 Homepage: https://projects.kde.org/projects/kde/kdegraphics/kcolorchooser
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kcolorchooser.git
@@ -16,9 +14,9 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kcolorchooser.git
 Package: kcolorchooser
 Section: graphics
 Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kcoloredit
 Breaks: kcoloredit
-Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: color chooser and palette editor
  KColorChooser is a color palette tool, used to mix colors and create custom
  color palettes.  Using the dropper, it can obtain the color of any pixel on
@@ -26,6 +24,8 @@ Description: color chooser and palette editor
  .
  A number of common color palettes are included, such as the standard Web colors
  and the Oxygen color scheme.
+ .
+ This package is part of the KDE graphics module.
 
 Package: kcolorchooser-dbg
 Section: debug
