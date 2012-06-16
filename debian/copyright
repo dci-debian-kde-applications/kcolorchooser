@@ -1,4 +1,4 @@
-Format: http://dep.debian.net/deps/dep5
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: kcolorchooser
 Source: http://www.kde.org
 
@@ -25,7 +25,7 @@ License: MIT
 
 Files: debian/*
 Copyright: 2011 Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
-Copyright: 2011 Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+           2011-2012 Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
