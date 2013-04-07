@@ -1,10 +1,10 @@
-kcolorchooser (4:4.10.2-1) UNRELEASED; urgency=low
+kcolorchooser (4:4.10.2-1) experimental; urgency=low
 
   * New upstream release.
   * Add me to uploaders.
   * Bump build-deps.
 
- -- Sune Vuorela <sune@debian.org>  Sun, 07 Apr 2013 17:13:06 +0000
+ -- Sune Vuorela <sune@debian.org>  Sun, 07 Apr 2013 17:14:50 +0000
 
 kcolorchooser (4:4.8.4-1) unstable; urgency=low
 
