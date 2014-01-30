@@ -2,11 +2,14 @@ Source: kcolorchooser
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Eshat Cakar <info@eshat.de>, Sune Vuorela <sune@debian.org>,
+Uploaders: Eshat Cakar <info@eshat.de>,
+           Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.11),
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/kde/kdegraphics/kcolorchooser
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kcolorchooser.git
@@ -15,7 +18,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kcolorchooser.git
 Package: kcolorchooser
 Section: graphics
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: kcoloredit
 Breaks: kcoloredit
 Description: color chooser and palette editor
