@@ -1,3 +1,13 @@
+kcolorchooser (4:14.11.95-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream beta release.
+  * Fix watch urls for new release location.
+  * Update Vcs urls for the new repository location.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update the maintainer.
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 23 Nov 2014 13:57:53 +0100
+
 kcolorchooser (4:4.11.3-2) unstable; urgency=medium
 
   * Bump Standards-Version to 3.9.5, no changes needed.
