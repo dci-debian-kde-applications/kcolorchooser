@@ -4,15 +4,35 @@ kcolorchooser (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 16 Apr 2015 15:02:15 -0700
 
-kcolorchooser (4:14.11.95-0ubuntu1) UNRELEASED; urgency=medium
+kcolorchooser (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
-  * New upstream beta release.
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 14:04:25 -0700
+
+kcolorchooser (4:14.12.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 08:58:00 -0800
+
+kcolorchooser (4:14.12.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Remove kdelibs5-dev depend version as there was not a new release.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 16:25:59 +0100
+
+kcolorchooser (4:14.11.97-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release candidate.
   * Fix watch urls for new release location.
   * Update Vcs urls for the new repository location.
   * Bump Standards-Version to 3.9.6, no changes needed.
   * Update the maintainer.
+  * PPA build
 
- -- Philip Muškovac <yofel@kubuntu.org>  Sun, 23 Nov 2014 13:57:53 +0100
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 28 Nov 2014 21:31:14 +0100
 
 kcolorchooser (4:4.11.3-2) unstable; urgency=medium
 
