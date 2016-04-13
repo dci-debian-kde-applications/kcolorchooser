@@ -1,3 +1,11 @@
+kcolorchooser (4:15.12.0-2~1.gbpc40243) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @c40243587d6cdde5bccafa2e3417e4bb6dbc3774 **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:01:55 +0200
+
 kcolorchooser (4:15.12.0-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
