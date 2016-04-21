@@ -5,11 +5,16 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>,
            Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake (>= 2.8.9~),
+Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
+               extra-cmake-modules (>= 1.7.0~),
                kde-sc-dev-latest (>= 4:4.11),
                kdelibs5-dev,
-               pkg-kde-tools (>= 0.12)
+               libkf5i18n-dev,
+               libkf5widgetsaddons-dev,
+               libkf5xmlgui-dev,
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev (>= 5.2.0~)
 Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/kde/kdegraphics/kcolorchooser
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/kcolorchooser.git
