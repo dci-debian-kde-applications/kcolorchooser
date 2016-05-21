@@ -1,10 +1,6 @@
-kcolorchooser (4:16.04.0-1~2.gbp7b834b) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @7b834bdc1db8e84262dfff8358ca565ce0637d05 **
+kcolorchooser (4:16.04.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @19eb352f1c53e1cf7d6224e8e6591ac961dc3d24 **
-
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
@@ -12,7 +8,7 @@ kcolorchooser (4:16.04.0-1~2.gbp7b834b) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:01:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 16:49:19 +0200
 
 kcolorchooser (4:15.12.0-1) experimental; urgency=medium
 
