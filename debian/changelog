@@ -1,3 +1,11 @@
+kcolorchooser (4:16.04.0-3~1.gbp921df5) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @921df50759d9371ff6829bd87d7cd335a25e6d51 **
+
+  * Update changelog for 4:16.04.0-2 release
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 21 Jun 2016 13:01:16 +0200
+
 kcolorchooser (4:16.04.0-2) unstable; urgency=medium
 
   [ Pino Toscano ]
