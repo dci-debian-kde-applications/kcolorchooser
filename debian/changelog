@@ -1,3 +1,11 @@
+kcolorchooser (4:16.08.3-1~1.gbp7210f1) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @7210f1ef9ae16001501d3c802d03a8eae51767b6 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Fri, 11 Nov 2016 00:01:20 +0100
+
 kcolorchooser (4:16.08.0-1) unstable; urgency=medium
 
   * New upstream release (16.08.0)
