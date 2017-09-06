@@ -22,8 +22,8 @@ Package: kcolorchooser
 Section: graphics
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kcoloredit
-Breaks: kcoloredit
+Replaces: kcoloredit, ${kde-l10n:all}
+Breaks: kcoloredit, ${kde-l10n:all}
 Description: color chooser and palette editor
  KColorChooser is a color palette tool, used to mix colors and create custom
  color palettes.  Using the dropper, it can obtain the color of any pixel on
